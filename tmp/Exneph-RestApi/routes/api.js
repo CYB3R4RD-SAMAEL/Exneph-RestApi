@@ -203,7 +203,7 @@ router.get('/addapikey', (req, res, next) => {
 
     if (!apikey) return res.json(loghandler.notparam)
     if (!(status && apikeyInput && email && nomorhp && name && age && country && exp)) return res.json(loghandler.notAddApiKey)
-    if (apikey != 'Alphabot') return res.json(loghandler.invalidKey)
+    if (apikey != 'ZYY') return res.json(loghandler.invalidKey)
 
     try {
         zahirr.insert({
@@ -242,7 +242,7 @@ router.get('/remove', (req, res, next) => {
 
     if (!apikey) return res.json(loghandler.notparam)
     if (!(status && apikeyInput && email && nomorhp && name && age && country && exp)) return res.json(loghandler.notAddApiKey)
-    if (apikey != 'Alphabot') return res.json(loghandler.invalidKey)
+    if (apikey != 'ZYY') return res.json(loghandler.invalidKey)
 
     try {
         zahirr.remove({
