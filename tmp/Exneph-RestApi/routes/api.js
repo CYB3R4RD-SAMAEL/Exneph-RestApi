@@ -39,102 +39,102 @@ var cookie = "HSID=A7EDzLn3kae2B1Njb;SSID=AheuwUjMojTWvA5GN;APISID=cgfXh13rQbb4z
 loghandler = {
     notparam: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'masukan parameter apikey',
         getApikey: 'Apikey??? Contact Me On WhatsApp'
     },
     notkey: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'masukan parameter key'
     },
     noturl: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'masukan parameter url'
     },
     notkata: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'masukan parameter kata'
     },
     nottext: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'masukan parameter text'
     },
     nottext2: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'masukan parameter text2'
     },
     notnabi: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'masukan parameter nabi'
     },
     nottext3: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'masukan parameter text3'
     },
     nottheme: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'masukan parameter theme'
     },
     notusername: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'masukan parameter username'
     },
     notvalue: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'masukan parameter value'
     },
     notheme: {
     	status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'theme tidak tersedia silahkan masukkan texmaker/list atau baca documentasi'
      },
     invalidKey: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'Apikey??? Contact Me On WhatsApp'
     },
     invalidlink: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         message: 'error, mungkin link anda tidak valid.'
     },
     invalidkata: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         message: 'error, mungkin kata tidak ada dalam api.'
     },
     notAddApiKey: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         code: 406,
         message: 'masukan parameter status, apikeyInput, email, nomorhp, name, age, country, exp'
     },
     error: {
         status: false,
-        creator: `${creator}`,
+        creator: `Azyansah`,
         message: 'mungkin sedang dilakukan perbaikan'
     }
 }
@@ -219,7 +219,7 @@ router.get('/addapikey', (req, res, next) => {
         .then(() => {
               res.json({
                   status: true,
-                  creator: `${creator}`,
+                  creator: `Azyansah`,
                   result: 'berhasil menambah data, status : ' + status + ', apikey : ' + apikeyInput + ', email : ' + email + ', nomor_hp : ' + nomorhp + ', name :  ' + name + ', age : ' + age + ', country : ' + country + ', exp : ' + exp
               })
         })
@@ -258,7 +258,7 @@ router.get('/remove', (req, res, next) => {
         .then(() => {
              res.json({
                   status: true,
-                  creator: `${creator}`,
+                  creator: `Azyansah`,
                   result: 'berhasil menghapus data, status : ' + status + ', apikey : ' + apikeyInput + ', email : ' + email + ', nomor_hp : ' + nomorhp + ', name :  ' + name + ', age : ' + age + ', country : ' + country + ', exp : ' + exp
               })
         })
@@ -588,7 +588,7 @@ router.get('/nsfw/ass', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -609,7 +609,7 @@ router.get('/nsfw/ahegao', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -630,7 +630,7 @@ router.get('/nsfw/bdsm', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -651,7 +651,7 @@ router.get('/nsfw/blowjob', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -672,7 +672,7 @@ router.get('/nsfw/cuckold', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -693,7 +693,7 @@ router.get('/nsfw/cum', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -714,7 +714,7 @@ router.get('/nsfw/ero', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -735,7 +735,7 @@ router.get('/nsfw/femdom', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -756,7 +756,7 @@ router.get('/nsfw/foot', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -777,7 +777,7 @@ router.get('/nsfw/gangbang', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -798,7 +798,7 @@ router.get('/nsfw/glasses', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -819,7 +819,7 @@ router.get('/nsfw/hentai', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -840,7 +840,7 @@ router.get('/nsfw/hentaigif', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -861,7 +861,7 @@ router.get('/nsfw/jahy', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -882,7 +882,7 @@ router.get('/nsfw/masturbation', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -903,7 +903,7 @@ router.get('/nsfw/nsfwNeko', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -924,7 +924,7 @@ router.get('/nsfw/orgy', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -945,7 +945,7 @@ router.get('/nsfw/panties', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -966,7 +966,7 @@ router.get('/nsfw/pussy', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -987,7 +987,7 @@ router.get('/nsfw/thighs', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -1008,7 +1008,7 @@ router.get('/nsfw/yuri', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	creator : `${creator}`,
+             	creator : `Azyansah`,
                  result
              })
          })
@@ -1031,7 +1031,7 @@ router.get('/tiktod', async (req, res, next) => {
              console.log(vid)
              res.json({
                  status: true,
-                 creator: `${creator}`,
+                 creator: `Azyansah`,
                  videoNoWm: vid
              })
          })
@@ -1053,14 +1053,14 @@ router.get('/tiktod/stalk', async (req, res, next) => {
         .then(user => {
             res.json({
                 status : true,
-                creator : `${creator}`,
+                creator : `Azyansah`,
                 result : user
             })
         })
         .catch(e => {
              res.json({
                  status : false,
-                 creator : `${creator}`,
+                 creator : `Azyansah`,
                  message : "error, mungkin username anda tidak valid"
              })
          })
@@ -1077,7 +1077,7 @@ router.get('/randomquote', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
-                 creator : `${creator}`,
+                 creator : `Azyansah`,
                  result
              })
          })
@@ -1093,7 +1093,7 @@ router.get('/infonpm', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!query) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter query"})
+    if (!query) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter query"})
 
        fetch(encodeURI(`https://registry.npmjs.org/${query}`))
         .then(response => response.json())
@@ -1101,7 +1101,7 @@ router.get('/infonpm', async (req, res, next) => {
         var result = data;
              res.json({
                  status : true,
-                 creator : `${creator}`,
+                 creator : `Azyansah`,
                  result,
                  message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`
              })
@@ -1124,7 +1124,7 @@ router.get('/short/tiny', async (req, res, next) => {
          try {
              res.json({
                  status : true,
-                 creator : `${creator}`,
+                 creator : `Azyansah`,
                  result : {
                      link : `${body}`,
                  },
@@ -1150,7 +1150,7 @@ router.get('/base', async (req, res, next) => {
 				.then(result => {
 					res.json({
 						status:true,
-						creator: `${creator}`,
+						creator: `Azyansah`,
 						result
 					})
 				})
@@ -1159,7 +1159,7 @@ router.get('/base', async (req, res, next) => {
 				.then(result => {
 					res.json({
 						status: true,
-						creator: `${creator}`,
+						creator: `Azyansah`,
 						result
 					})
 				})
@@ -1168,7 +1168,7 @@ router.get('/base', async (req, res, next) => {
 				.then(result => {
 					res.json({
 						status:true,
-						creator: `${creator}`,
+						creator: `Azyansah`,
 						result
 					})
 				})
@@ -1177,14 +1177,14 @@ router.get('/base', async (req, res, next) => {
 				.then(result => {
 					res.json({
 						status:true,
-						creator: `${creator}`,
+						creator: `Azyansah`,
 						result
 					})
 				})
 			} else if(!(encode || decode)){
 				res.json({
 					status:false,
-					creator: `${creator}`,
+					creator: `Azyansah`,
 					message: "tambahkan parameter encode/decode"
 				})
 			} else {
@@ -1198,7 +1198,7 @@ router.get('/nulis', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
+    if (!text) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter text"})
 
        fetch(encodeURI(`http://salism3.pythonanywhere.com/write/?text=${text}`))
         .then(response => response.json())
@@ -1248,7 +1248,7 @@ router.get('/textmaker', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -1286,7 +1286,7 @@ router.get('/textmaker', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -1338,7 +1338,7 @@ router.get('/textmaker/game', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -1375,7 +1375,7 @@ router.get('/textmaker/game', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -1426,7 +1426,7 @@ router.get('/textmaker/senja', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -1462,7 +1462,7 @@ router.get('/textmaker/senja', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -1523,8 +1523,8 @@ router.get('/hadits', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!kitab) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter kitab"})
-    if (!nomor) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter nomor"})
+    if (!kitab) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter kitab"})
+    if (!nomor) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter nomor"})
 
        fetch(encodeURI(`https://hadits-api-zhirrr.vercel.app/books/${kitab}/${nomor}`))
         .then(response => response.json())
@@ -1547,8 +1547,8 @@ router.get('/quran', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!surah) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter surah"})
-    if (!ayat) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter ayat"})
+    if (!surah) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter surah"})
+    if (!ayat) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter ayat"})
 
        fetch(encodeURI(`https://alquran-apiii.vercel.app/surah/${surah}/${ayat}`))
         .then(response => response.json())
@@ -1570,7 +1570,7 @@ router.get('/fbdown', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!url) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter url"})
+    if (!url) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter url"})
 
        fetch(encodeURI(`https://fb-api-zhirrr.vercel.app/?url=${url}`))
         .then(response => response.json())
@@ -1620,7 +1620,7 @@ router.get('/textmaker/metallic', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -1656,7 +1656,7 @@ router.get('/textmaker/metallic', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -1707,7 +1707,7 @@ router.get('/textmaker/alam', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -1743,7 +1743,7 @@ router.get('/textmaker/alam', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -2126,7 +2126,7 @@ router.get('/wikipedia', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-        if(!search) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter search"})
+        if(!search) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter search"})
 
        fetch(encodeURI(`https://docs-api-zahirrr.herokuapp.com/api/wiki?keyword=${search}`))
         .then(response => response.json())
@@ -2167,7 +2167,7 @@ router.get('/drakorasia', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-        if(!search) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter search"})
+        if(!search) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter search"})
 
        fetch(encodeURI(`http://docs-api-zahirrr.herokuapp.com/api/drakorasia?search=${search}`))
         .then(response => response.json())
@@ -2189,7 +2189,7 @@ router.get('/jadwalshalat', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-        if(!kota) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter kota"})
+        if(!kota) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter kota"})
 
        fetch(encodeURI(`https://raw.githubusercontent.com/Zhirrr/Zhirrr-Database/main/adzan/${kota}/2021/03.json`))
         .then(response => response.json())
@@ -2211,7 +2211,7 @@ router.get('/fakedata', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-        if(!country) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter country"})
+        if(!country) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter country"})
 
        fetch(encodeURI(`https://fakename-api-zhirrr.vercel.app/api/fakename?country=${country}`))
         .then(response => response.json())
@@ -2233,7 +2233,7 @@ router.get('/hilih', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-        if(!kata) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter kata"})
+        if(!kata) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter kata"})
 
        fetch(encodeURI(`https://hilih-api-zhirrr.vercel.app/api/hilih?kata=${kata}`))
         .then(response => response.json())
@@ -2255,7 +2255,7 @@ router.get('/liriklagu', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-        if(!lagu) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter kata"})
+        if(!lagu) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter kata"})
 
        fetch(encodeURI(`https://python-api-zhirrr.herokuapp.com/api/lirik?search=${lagu}`))
         .then(response => response.json())
@@ -2277,7 +2277,7 @@ router.get('/chordlagu', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-        if(!lagu) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter kata"})
+        if(!lagu) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter kata"})
 
        fetch(encodeURI(`https://python-api-zhirrr.herokuapp.com/api/chord?q=${lagu}`))
         .then(response => response.json())
@@ -2319,7 +2319,7 @@ router.get('/kbbi', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-        if(!kata) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter kata"})
+        if(!kata) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter kata"})
 
        fetch(encodeURI(`https://kbbi-api-zhirrr.vercel.app/api/kbbi?text=${kata}`))
         .then(response => response.json())
@@ -2381,7 +2381,7 @@ router.get('/kodepos', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-	if(!kota) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter kota"})
+	if(!kota) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter kota"})
 
        fetch(encodeURI(`https://kodepos-api-zhirrr.vercel.app/?q=${kota}`))
         .then(response => response.json())
@@ -2403,7 +2403,7 @@ router.get('/infocuaca', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-	if(!provinsi) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter provinsi"})
+	if(!provinsi) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter provinsi"})
        fetch(encodeURI(`https://bmkg-api-zahirr.herokuapp.com/api/cuaca/${provinsi}`))
         .then(response => response.json())
         .then(data => {
@@ -2521,7 +2521,7 @@ router.get('/translate', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-	if(!kata) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter kata"})
+	if(!kata) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter kata"})
        fetch(encodeURI(`https://docs-api-zahirrr.herokuapp.com/api/translate?text=${kata}`))
         .then(response => response.json())
         .then(data => {
@@ -2542,7 +2542,7 @@ router.get('/anime/kusonime', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-	if(!search) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter search"})
+	if(!search) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter search"})
        fetch(encodeURI(`https://docs-api-zahirrr.herokuapp.com/api/kusonime?search=${search}`))
         .then(response => response.json())
         .then(data => {
@@ -2583,7 +2583,7 @@ router.get('/manga', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-	if(!search) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter search"})
+	if(!search) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter search"})
        fetch(encodeURI(`https://docs-api-zahirrr.herokuapp.com/api/manga?keyword=${search}`))
         .then(response => response.json())
         .then(data => {
@@ -2664,7 +2664,7 @@ router.get('/news/cnn', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!type) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter type"})
+    if (!type) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter type"})
 
        fetch(encodeURI(`https://news-api-zhirrr.vercel.app/v1/cnn-news/${type}`))
         .then(response => response.json())
@@ -2687,7 +2687,7 @@ router.get('/news/cnbc', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!type) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter type"})
+    if (!type) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter type"})
 
        fetch(encodeURI(`https://news-api-zhirrr.vercel.app/v1/cnbc-news/${type}`))
         .then(response => response.json())
@@ -2710,7 +2710,7 @@ router.get('/news/republika', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!type) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter type"})
+    if (!type) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter type"})
 
        fetch(encodeURI(`https://news-api-zhirrr.vercel.app/v1/republika-news/${type}`))
         .then(response => response.json())
@@ -2733,7 +2733,7 @@ router.get('/news/tempo', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!type) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter type"})
+    if (!type) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter type"})
 
        fetch(encodeURI(`https://news-api-zhirrr.vercel.app/v1/tempo-news/${type}`))
         .then(response => response.json())
@@ -2756,7 +2756,7 @@ router.get('/news/antara', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!type) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter type"})
+    if (!type) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter type"})
 
        fetch(encodeURI(`https://news-api-zhirrr.vercel.app/v1/antara-news/${type}`))
         .then(response => response.json())
@@ -2800,7 +2800,7 @@ router.get('/filmapik/search', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!film) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter film"})
+    if (!film) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter film"})
 
        fetch(encodeURI(`https://filmapik-api-zahirr.herokuapp.com/search?q=${film}`))
         .then(response => response.json())
@@ -2823,7 +2823,7 @@ router.get('/filmapik/kategori', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!film) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter film"})
+    if (!film) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter film"})
 
        fetch(encodeURI(`https://filmapik-api-zahirr.herokuapp.com/category?search=${film}`))
         .then(response => response.json())
@@ -2846,7 +2846,7 @@ router.get('/filmapik/play', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!id) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter id"})
+    if (!id) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter id"})
 
        fetch(encodeURI(`https://filmapik-api-zahirr.herokuapp.com/play?id=${id}`))
         .then(response => response.json())
@@ -2890,7 +2890,7 @@ router.get('/lk21/search', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!film) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter film"})
+    if (!film) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter film"})
 
        fetch(encodeURI(`https://lk21-api-zahirr.herokuapp.com/search?query=${film}`))
         .then(response => response.json())
@@ -2976,7 +2976,7 @@ router.get('/lk21/year', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!tahun) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter tahun"})
+    if (!tahun) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter tahun"})
 
        fetch(encodeURI(`https://lk21-api-zahirr.herokuapp.com/year?year=${tahun}`))
         .then(response => response.json())
@@ -2999,7 +2999,7 @@ router.get('/lk21/country', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!negara) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter negara"})
+    if (!negara) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter negara"})
 
        fetch(encodeURI(`https://lk21-api-zahirr.herokuapp.com/country?country=${negara}`))
         .then(response => response.json())
@@ -3022,7 +3022,7 @@ router.get('/lk21/genre', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!tipe) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter tipe"})
+    if (!tipe) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter tipe"})
 
        fetch(encodeURI(`https://lk21-api-zahirr.herokuapp.com/genre?genre=${tipe}`))
         .then(response => response.json())
@@ -3073,7 +3073,7 @@ router.get('/textmaker/random', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -3109,7 +3109,7 @@ router.get('/textmaker/random', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -3160,7 +3160,7 @@ router.get('/textmaker/roses', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -3196,7 +3196,7 @@ router.get('/textmaker/roses', async (req, res, next) => {
                                         delete_url = data.data.delete_url;
                                         res.json({
                                             status : true,
-                                            creator : `${creator}`,
+                                            creator : `Azyansah`,
                                             message : `jangan lupa untuk berbahagia, karena bahagia itu penting kawand😁😁`,
                                             result:{
                                                 url:urlnya,
@@ -3219,7 +3219,7 @@ router.get('/yutub/video', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!url) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter url"})
+    if (!url) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter url"})
 
        fetch(encodeURI(`https://python-api-zhirrr.herokuapp.com/api/ytv?url=${url}`))
         .then(response => response.json())
@@ -3242,7 +3242,7 @@ router.get('/yutub/audio', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!url) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter url"})
+    if (!url) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter url"})
 
        fetch(encodeURI(`https://python-api-zhirrr.herokuapp.com/api/yta?url=${url}`))
         .then(response => response.json())
@@ -3265,7 +3265,7 @@ router.get('/ig/stalk', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!username) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter username"})
+    if (!username) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter username"})
 
        fetch(encodeURI(`https://python-api-zhirrr.herokuapp.com/api/stalk?username=${username}`))
         .then(response => response.json())
@@ -3288,7 +3288,7 @@ router.get('/maker', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
+    if (!text) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/textmaker?text=${text}`))
         .then(response => response.json())
@@ -3311,7 +3311,7 @@ router.get('/maker2', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
+    if (!text) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/textmaker2?text=${text}`))
         .then(response => response.json())
@@ -3332,7 +3332,7 @@ router.get('/github/stalk', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!username) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter username"})
+    if (!username) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter username"})
 
        fetch(encodeURI(`https://github-api-zhirrr.vercel.app/api/detailuser?q=${username}`))
         .then(response => response.json())
@@ -3353,7 +3353,7 @@ router.get('/repository/stalk', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!username) return res.json({ status : false, creator : `${creator}`, message : "masukan nama repository yang ingin kamu cari"})
+    if (!username) return res.json({ status : false, creator : `Azyansah`, message : "masukan nama repository yang ingin kamu cari"})
 
        fetch(encodeURI(`https://github-api-zhirrr.vercel.app/api/searchrepo?q=${username}`))
         .then(response => response.json())
@@ -3376,7 +3376,7 @@ router.get('/maker3', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
+    if (!text) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/textmaker3?text=${text}`))
         .then(response => response.json())
@@ -3399,7 +3399,7 @@ router.get('/maker4', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
+    if (!text) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/textmaker4?text=${text}`))
         .then(response => response.json())
@@ -3422,7 +3422,7 @@ router.get('/maker3d', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
+    if (!text) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/text3d?text=${text}`))
         .then(response => response.json())
@@ -3445,7 +3445,7 @@ router.get('/maker3d/no2', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
+    if (!text) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/text3d-2?text=${text}`))
         .then(response => response.json())
@@ -3468,7 +3468,7 @@ router.get('/maker3d/no3', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
+    if (!text) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/text3d-3?text=${text}`))
         .then(response => response.json())
@@ -3491,7 +3491,7 @@ router.get('/maker3d/no4', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
+    if (!text) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/text3d-4?text=${text}`))
         .then(response => response.json())
@@ -3514,7 +3514,7 @@ router.get('/yutub/search', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!video) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter video"})
+    if (!video) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter video"})
 
        fetch(encodeURI(`https://yutub-api-zaahirr.herokuapp.com/search?q=${video}`))
         .then(response => response.json())
@@ -3537,7 +3537,7 @@ router.get('/maker/special/transformer', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
+    if (!text) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/special/transformer?text=${text}`))
         .then(response => response.json())
@@ -3560,7 +3560,7 @@ router.get('/maker/special/epep', async (req, res, next) => {
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
 	if(apikeyInput != 'ZYY') return res.json(loghandler.invalidKey)
-    if (!text) return res.json({ status : false, creator : `${creator}`, message : "masukan parameter text"})
+    if (!text) return res.json({ status : false, creator : `Azyansah`, message : "masukan parameter text"})
 
        fetch(encodeURI(`https://textmaker-api-zahirr.herokuapp.com/api/special/sertifikatepep?text=${text}`))
         .then(response => response.json())
