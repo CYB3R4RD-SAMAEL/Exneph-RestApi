@@ -2696,6 +2696,26 @@ router.get('/kuis/siapakahaku', async (req, res, next) => {
 })
 })
 
+
+router.get('/kuis/tebakan', async (req, res, next) => {
+        var apikeyInput = req.query.apikey
+	if(!apikeyInput) return res.json(loghandler.notparam)	
+	if (apikeyInput != 'ZYY')  return res.json(loghandler.invalidKey)
+       fetch(encodeURI(`https://raw.githubusercontent.com/Azyansah/Database/main/source/tebaktebaklucu.json`))
+        .then(response => response.json())
+        .then(data => {
+        var result = data;
+        var result = data[Math.floor(Math.random() * data.length)];
+             res.json({
+             	author: 'Azyansah',
+                 result
+             })
+         })
+         .catch(e => {
+         	res.json(loghandler.error)
+})
+})
+
 router.get('/kuis/tebakgambar', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
