@@ -2303,7 +2303,9 @@ router.get('/random/asmaulhusna', async (req, res, next) => {
         .then(response => response.json())
         .then(data => {
         var result = data;
+        var result = data[Math.floor(Math.random() * data.length)];
              res.json({
+             	author: 'Azyansah',
                  result
              })
          })
@@ -2312,6 +2314,25 @@ router.get('/random/asmaulhusna', async (req, res, next) => {
 })
 })
 
+
+router.get('/random/dare', async (req, res, next) => {
+        var apikeyInput = req.query.apikey
+	if(!apikeyInput) return res.json(loghandler.notparam)	
+	if (apikeyInput != 'ZYY')  return res.json(loghandler.invalidKey)
+       fetch(encodeURI(`https://raw.githubusercontent.com/Azyansah/Database/main/source/dare.json`))
+        .then(response => response.json())
+        .then(data => {
+        var result = data;
+        var result = data[Math.floor(Math.random() * data.length)];
+             res.json({
+             	author: 'Azyansah',
+                 result
+             })
+         })
+         .catch(e => {
+         	res.json(loghandler.error)
+})
+})
 
 router.get('/kbbi', async (req, res, next) => {
         var apikeyInput = req.query.apikey,
