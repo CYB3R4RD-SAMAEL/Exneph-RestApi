@@ -2020,7 +2020,7 @@ router.get('/muslim/niatashar', async (req, res, next) => {
 })
 
 
-router.get('/wallpaper/cyberspace', async (req, res, next) => {
+router.get('/image/cyberspace', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
@@ -2040,7 +2040,7 @@ router.get('/wallpaper/cyberspace', async (req, res, next) => {
 })
 
 
-router.get('/wallpaper/teknologi', async (req, res, next) => {
+router.get('/image/teknologi', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
@@ -2060,7 +2060,7 @@ router.get('/wallpaper/teknologi', async (req, res, next) => {
 })
 
 
-router.get('/wallpaper/muslim', async (req, res, next) => {
+router.get('/image/muslim', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
@@ -2080,7 +2080,7 @@ router.get('/wallpaper/muslim', async (req, res, next) => {
 })
 
 
-router.get('/wallpaper/programming', async (req, res, next) => {
+router.get('/image/programming', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
@@ -2100,7 +2100,7 @@ router.get('/wallpaper/programming', async (req, res, next) => {
 })
 
 
-router.get('/wallpaper/pegunungan', async (req, res, next) => {
+router.get('/image/pegunungan', async (req, res, next) => {
         var apikeyInput = req.query.apikey
             
 	if(!apikeyInput) return res.json(loghandler.notparam)
@@ -2111,6 +2111,26 @@ router.get('/wallpaper/pegunungan', async (req, res, next) => {
         .then(data => {
         var result = data;
              res.json({
+                 result
+             })
+         })
+         .catch(e => {
+         	res.json(loghandler.error)
+})
+})
+
+
+router.get('/image/penguin', async (req, res, next) => {
+        var apikeyInput = req.query.apikey
+	if(!apikeyInput) return res.json(loghandler.notparam)	
+	if (apikeyInput != 'ZYY')  return res.json(loghandler.invalidKey)
+       fetch(encodeURI(`https://raw.githubusercontent.com/Azyansah/Database/main/gabut/randompinguin1.json`))
+        .then(response => response.json())
+        .then(data => {
+        var result = data;
+        var result = data[Math.floor(Math.random() * data.length)];
+             res.json({
+             	author: 'Azyansah',
                  result
              })
          })
