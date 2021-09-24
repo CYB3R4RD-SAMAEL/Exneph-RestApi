@@ -2425,7 +2425,7 @@ router.get('/random/kataanimev2', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	type: `Quotes Anime V2\n`,
+             	type: `Quotes Anime V2\n_`,
                  result
              })
          })
