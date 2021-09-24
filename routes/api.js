@@ -2405,7 +2405,7 @@ router.get('/random/kataanime', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	author: 'Azyansah',
+             	type: `Quotes Anime\n`,
                  result
              })
          })
@@ -2425,7 +2425,7 @@ router.get('/random/kataanimev2', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	author: 'Azyansah',
+             	type: `Quotes Anime V2\n`,
                  result
              })
          })
@@ -2445,7 +2445,7 @@ router.get('/random/sadboy', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	author: 'Azyansah',
+             	type: `Sad Boy\n`,
                  result
              })
          })
