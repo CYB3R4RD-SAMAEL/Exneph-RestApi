@@ -2405,7 +2405,7 @@ router.get('/random/kataanime', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	type: `Quotes Anime\n`,
+             	type: `Quotes Anime`,
                  result
              })
          })
@@ -2425,7 +2425,7 @@ router.get('/random/kataanimev2', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	type: `Quotes Anime V2\n_`,
+             	type: `Quotes Anime V2`,
                  result
              })
          })
@@ -2445,7 +2445,7 @@ router.get('/random/sadboy', async (req, res, next) => {
         var result = data;
         var result = data[Math.floor(Math.random() * data.length)];
              res.json({
-             	type: `Sad Boy\n`,
+             	type: `Sad Boy`,
                  result
              })
          })
